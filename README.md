@@ -11,3 +11,9 @@ commande: sfctl -T
 commande: ping -S ip_source -D ip_destination
 
 ![ping](https://github.com/DoSec-hash/stormshield-commande-utile/blob/master/gifs/ping_ipsec.PNG)
+
+##  Lister les ports
+
+commande: portinfo
+
+![portinfo](https://github.com/DoSec-hash/stormshield-commande-utile/blob/master/gifs/portinfo.PNG)
