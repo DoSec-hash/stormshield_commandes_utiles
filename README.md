@@ -6,6 +6,10 @@ commande: sfctl -T
 
 ![sfctl](https://github.com/DoSec-hash/stormshield-commande-utile/blob/master/gifs/ez.gif)
 
+accéder au menu press "s" puis  "entrer" pour la section souhaité:
+
+![menu](https://github.com/DoSec-hash/stormshield-commande-utile/blob/master/gifs/menu.gif)
+
 ##  PING LAN du site A vers le site B (IPSEC)
 
 commande: ping -S ip_source -D ip_destination
