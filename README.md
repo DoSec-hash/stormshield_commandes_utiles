@@ -4,3 +4,4 @@
 
 commande: sfctl -T
 
+![sfctl](https://github.com/DoSec-hash/stormshield-commande-utile/blob/master/gifs/ez.gif)
