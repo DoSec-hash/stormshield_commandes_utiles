@@ -25,3 +25,24 @@ commande: portinfo
 ## Lister les connections entrantes pour l'ipsec ( 500 or 4500 ) sur une ip spécifique
 
 commande: tcpdump -tni mvneta0 host 87.158.58.21 and '(port 500 or port 4500)'
+
+
+## restart service web 
+
+commande: serverd -d
+
+## Vérifier les logs vpn :
+
+commande: tail -f /log/l_vpn
+
+## Récuperer des infos sur les connections d'une ip 
+
+commande: sfctl -s conn -H state=all -H host=93.22.38.149 -v -n -T
+
+## Vérifié la route que prend une ip:
+
+commande:  route get 77.1.23.28
+
+## debug logs ( avancé )
+
+commande: tail -f /log/verbose.sld
