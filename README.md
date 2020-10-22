@@ -68,6 +68,7 @@ FW_BUREAU-SN160A2945895A7>
 ## activé les logs sld:
 
 Éditer : vim /ConfigFiles/verbose
+
 [sld]
 State=0  <----- 1 pour activé
 CategoriesDefaultLevel=debug
