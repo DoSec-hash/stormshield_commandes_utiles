@@ -82,4 +82,8 @@ On relance le service
 
 sld- d
 
+## restart service ldap
+
+enldap
+
 
