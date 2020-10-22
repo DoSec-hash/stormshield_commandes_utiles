@@ -46,3 +46,21 @@ commande:  route get 77.1.23.28
 ## debug logs ( avancé )
 
 commande: tail -f /log/verbose.sld
+
+## INFO PKI
+
+cat /var/ldap/slapd.conf
+
+## Mettre son ldap en public
+
+ vim ConfigFiles/ldap
+ 
+ modifié le paramétre : Public    1 pour public | 0 pour le local
+
+
+## Vérifié que la connexion écoute sur n'importe quelle adresse:
+
+FW_BUREAU-SN160A2945895A7>sockstat | grep 636
+admin    slapd      1561  6  tcp6   *:636                 *:*
+admin    slapd      1561  7  tcp4   *:636                 *:*
+FW_BUREAU-SN160A2945895A7>
