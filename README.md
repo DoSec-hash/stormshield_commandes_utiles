@@ -81,5 +81,15 @@ arp -an
 arp -a -d
 
 
+## trouver un process pour le kill
+
+ps aux | grep -i charon
+
+kill -9 73357
+
+envpn 00
+
+
+
 
 
